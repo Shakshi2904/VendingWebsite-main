@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-around;
     position: relative;
-    background-image: url('../public/navbarbg.png');
+    background-image: url('navbarbg.png');
     height: 30vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,16 +20,18 @@
     align-items: center;
     justify-content: center;
     height: 20vh;
-    margin-left: 10vh;
+    margin-left: 5vh;
 }
 #navleft h1{
     font-size: 3vh;
+    color: #FFFF00;
 }
 #navleft p{
     font-size: 1.5vh;
+    color: #FFFF00;
 }
 #navright{
-    width: 45%;
+    width: 35%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -53,8 +55,11 @@ a{
     color: #FFE600;
 }
 #home{
-    padding : 13px;
-    border: 2px solid white;
+    padding : 10px;
+    border: 2px solid #FFE600;;
     border-radius: 10px;
-    background-color: white;
+    background-color: #FFE600;
+}
+#b1 #home{
+    color: #22116C;
 }
