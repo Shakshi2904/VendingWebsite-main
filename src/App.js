@@ -23,11 +23,10 @@ function App(){
         </div>
         <div id='navright'>
           <button id='b1'><a className="hoverable-element" id='home' href=''>Home</a></button>
-          <button id='b1'><a className="hoverable-element" id='backed' href=''>Backed By</a></button>
-          <button id='b1'><a className="hoverable-element" id='blogs' href=''>Blogs</a></button>
+          <button id='b1'><a className="hoverable-element" id='backed' href=''>Why Us?</a></button>
           <button id='b1'><a className="hoverable-element" id='aboutus' href=''>About Us</a></button>
           <select className="hoverable-element">
-            <option selected>Partner With Us</option>
+            <option selected>Our Services</option>
             <option>Haldiram</option>
             <option>Coke</option>
             <option>Pepsi</option>
