@@ -1,0 +1,87 @@
+.scrollimg{
+    display: flex;
+    overflow-x: auto;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+.scrollimg::-webkit-scrollbar{
+    display: none;
+}
+.feed{
+    margin-top: 5vh;
+    font-family: 'Lexend Exa', sans-serif;
+    background-image: url('../public/feedbackbg.png');
+}
+.n{
+    text-align: start;
+    width: 17vw;
+    height: 38vh;
+    padding: 20px;
+    background-color: white;
+    color: rgba(113, 113, 113, 1);
+    font-size: 1vw;
+}
+.checked{
+    color: yellow;
+}
+.fa{
+    margin-top:3vw;
+    margin-bottom: 1vw;
+    background-color: white;
+}
+.star{
+    border-radius: 10px;
+    border: 3px solid white;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 40px;
+    text-align: center;
+}
+#feedback{
+    text-align: center;
+}
+#feedback h1{
+    margin-bottom:2vh;
+    font-size: 5vh;
+    color:rgba(34, 17, 108, 1);
+}
+#feedback p{
+    color:rgba(173, 173, 173, 1)
+}
+#feedbackpic{
+    display: flex;
+    margin-left: 2vh;
+    margin-top: 2vh;
+    background-color: white;
+}
+#feedbackpic img{
+    background-color: white;
+}
+#name{
+    margin-left: 1vw;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color:rgba(34, 17, 108, 1);
+}
+#name h2{
+    color:rgba(34, 17, 108, 1);
+    background-color: white;
+}
+.feedbacksection{
+    background-color: white;
+}
+#post{
+    width: 15vw;
+    height: 7vh;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: rgba(34, 17, 108, 1);
+    font-family: 'Lexend Exa', sans-serif;
+}
+#postbutton{
+    display: flex;
+    justify-content: center;
+    font-family: 'Lexend Exa', sans-serif;
+}

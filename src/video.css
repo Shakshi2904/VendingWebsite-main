@@ -1,0 +1,44 @@
+#video{
+    display: flex;
+    justify-content: space-around;
+    margin: 6vh;
+    font-family: 'Lexend Exa', sans-serif;
+}
+#videoleft{
+    display: flex;
+    align-items: center;
+}
+#videoleft button{
+    height: 6vh;
+    width: 3vw;
+    margin-right: 1vw;
+    border-radius: 50px;
+    color: #22116C;
+    border: 2px solid white;
+}
+#videoright{
+    display: flex;
+    align-items: center;
+}
+#videoright button{
+    color: #22116C;
+    height: 6vh;
+    width: 3vw;
+    margin-right: 1vw;
+    border-radius: 50px;
+    border: 2px solid white;
+}
+#video p{
+    color: #22116C;
+    width: 20vw;
+}
+#how{
+    text-align: center;
+    margin-top: 10vh;
+    
+}
+#how h1{
+    color: #22116C;
+    font-size: 7vh;
+    font-weight: bolder;
+}

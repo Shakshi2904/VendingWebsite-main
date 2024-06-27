@@ -1,0 +1,18 @@
+#about h1{
+    color: #22116C;
+    margin: 5vh;
+    font-size: 7vh;
+    font-weight: bolder;
+}
+#about p{
+    color: #6A6A6A;
+    width: 90vh;
+    text-align: center;
+}
+#about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh;
+}

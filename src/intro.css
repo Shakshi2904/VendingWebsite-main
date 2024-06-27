@@ -1,0 +1,54 @@
+.introbg{
+    background-image: url('../public/introbg.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#intro p{
+    font-family: "Lexend Deca", sans-serif;
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    color: #22116C;
+    font-size: 10vh;
+    text-align: center;
+    width: 70vw;
+}
+.intro{
+    color: #6A6A6A;
+    text-align: center;
+    width: 50vw;
+    margin: 8vh;
+}
+#introbutton button{
+    width: 15vw;
+    height: 7vh;
+    border: 2px solid #22116C;
+    border-radius: 10px;
+}
+#introbutton{
+    display: flex;
+    justify-content: space-around;
+}
+#introb{
+    width: 50vw;
+    display: flex;
+    justify-content: space-around;
+    color: #FFE600;
+    height: 15vh;
+}
+#reachb{
+    color: #FFE600;
+    background-color: #22116C;
+    font-family: "Lexend Deca", sans-serif;
+}
+#learnb{
+    color: #FFE600;
+    background-color: #22116C;
+    font-family: "Lexend Deca", sans-serif;
+}

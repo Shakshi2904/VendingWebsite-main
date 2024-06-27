@@ -1,0 +1,15 @@
+.backedimages{
+    display: flex;
+    justify-content: space-around;
+    margin: 10vh;
+}
+.backed{
+    text-align: center;
+}
+.backed p{
+    margin: 10vh;
+    color: #22116C;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 10vh;
+    font-weight: bolder;
+}

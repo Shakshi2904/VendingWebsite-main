@@ -1,0 +1,72 @@
+#cocacola{}
+#haldiram{}
+#nestle{
+    margin-top: -5vh;
+    margin-left: 10vh;
+}
+#balaji{
+    margin-top: 5vh;
+}
+#amul{
+    margin-top: -5vh;
+    margin-left: 20vh;
+}
+#itc{
+    margin-top: -5vh;
+}
+#chedda{
+    height: 10vh;
+}
+#cavin{
+    margin-top: 15vh;
+}
+#monginis{
+    margin-left: -10vh;
+}
+#wafflemill{
+    margin-right: 20vh;
+    margin-top: -5vh;
+    height: 30vh;
+}
+#snackible{
+    margin-top: 10vh;
+    margin-left: -10vh;
+    margin-right: 10vh;
+}
+#paperboat{}
+#part1{
+    display: flex;
+    justify-content: space-evenly;
+}
+#brandby{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+}
+#brandby h1{
+    color:#22116C;
+    font-size: 7vh;
+    font-family: "Lexend Deca", sans-serif;
+    margin: 2vh;
+    font-weight: bolder;
+}
+#brandby p{
+    color: #808080;
+    font-family: "Lexend Deca", sans-serif;
+    text-align: center;
+}
+.brandbybutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#brandbyb{
+    width: 13vw;
+    height: 7vh;
+    border: 2px solid #22116C;
+    border-radius: 10px;
+    color:#FFE600;
+    background-color: #22116C;;
+}

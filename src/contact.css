@@ -1,0 +1,91 @@
+.contact{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color:#22116C;
+    text-align: center;
+    background-color: white;
+    padding:3vw;
+    font-family: 'Lexend Exa', sans-serif;
+    background-image: url('../public/contactbackground.png');
+}
+.contact h1{
+    color:#22116C;
+}
+.firstfield{
+    margin-top: 10vh;
+    margin-left: 30%;
+    position: relative;
+    display: flex;
+    height: 6vh;
+    width: 40vw;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.Fname{
+    position: relative;
+    background-color: #E4E4E4;
+    width:45%;
+    height:6vh;
+    box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.25);
+    transition: box-shadow 0.3s ease-in-out;
+}
+.Lname{
+    position: relative;
+    background-color: #E4E4E4;
+    width:45%;
+    margin-right: 5%;
+    height:6vh;
+    box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.25);
+    transition: box-shadow 0.3s ease-in-out;
+}
+.restfield{
+    margin-left: 30%;
+    position: relative;
+    margin-top: 3vh;
+    background-color: #E4E4E4;
+    height:6vh;
+    width: 38vw;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.25);
+    transition: box-shadow 0.3s ease-in-out;
+    color: #22116C;
+}
+input,textarea{
+    border: none;
+    width: 38vw;
+    background-color: #E4E4E4;
+    border-radius: 10px;
+    color: #22116C;
+}
+.textfield{
+    margin-left: 30%;
+    position: relative;
+    margin-top: 3vh;
+    background-color: #E4E4E4;
+    width: 38vw;
+    display: flex;
+    margin-bottom: 3vh;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.25);
+    transition: box-shadow 0.3s ease-in-out;
+}
+::placeholder{
+    margin-top: 2vh;
+    padding-left: 2vw;
+    color:#9385CE;
+    font-weight: bolder;
+}
+.contactbutton input{
+    margin-left: 45%;
+    position: relative;
+    margin-top: 3vh;
+    background-color: #22116C;
+    height:5vh;
+    width: 9vw;
+    display: flex;
+    padding:1vh;
+    border-radius: 10px;
+    color:#FFE600;
+}
