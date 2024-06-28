@@ -14,12 +14,12 @@
 }
 .n{
     text-align: start;
-    width: 17vw;
-    height: 38vh;
+    width: 15vw;
+    height: 20vh;
     padding: 20px;
     background-color: white;
     color: rgba(113, 113, 113, 1);
-    font-size: 1vw;
+    font-size: 0.75vw;
 }
 .checked{
     color: yellow;
@@ -37,6 +37,9 @@
     background-color: white;
     margin: 40px;
     text-align: center;
+}
+.start1{
+    margin-left: -20vh;
 }
 #feedback{
     text-align: center;
@@ -64,8 +67,14 @@
     flex-direction: column;
     background-color: white;
     color:rgba(34, 17, 108, 1);
+    justify-content: start;
+    align-items: start;
 }
 #name h2{
+    color:rgba(34, 17, 108, 1);
+    background-color: white;
+}
+#name h5{
     color:rgba(34, 17, 108, 1);
     background-color: white;
 }
