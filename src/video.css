@@ -9,12 +9,13 @@
     align-items: center;
 }
 #videoleft button{
-    height: 6vh;
-    width: 3vw;
+    color: #22116C;
+    height: 8vh;
+    width: 4vw;
     margin-right: 1vw;
     border-radius: 50px;
-    color: #22116C;
     border: 2px solid white;
+    font-size: 2vh;
 }
 #videoright{
     display: flex;
@@ -22,11 +23,12 @@
 }
 #videoright button{
     color: #22116C;
-    height: 6vh;
-    width: 3vw;
+    height: 8vh;
+    width: 4vw;
     margin-right: 1vw;
     border-radius: 50px;
     border: 2px solid white;
+    font-size: 2vh;
 }
 #video p{
     color: #22116C;
@@ -35,7 +37,6 @@
 #how{
     text-align: center;
     margin-top: 10vh;
-    
 }
 #how h1{
     color: #22116C;
