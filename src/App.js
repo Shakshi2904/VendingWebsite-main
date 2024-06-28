@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import Brandby from './Brandby.js';
 import Feeback from './Feedback.js';
 import Video from './Video.js';
@@ -12,16 +13,19 @@ import Footer from './Footer.js';
 import Contact from './contact.js';
 import OurService from './ourService.js';
 function App(){
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
   return (
     <div>
-      <MaskCursor/>
+      <MaskCursor />
       <div id='navbar'>
         <div id='navleft'>
-          <img className="hoverable-element" src='logo.png' alt='not available' height={'30vh'} width={'30vw'}/>
-          <h1 className="hoverable-element">24buy7</h1>
-          <p className="hoverable-element">QUICK BUYING SOLUTIONS</p>
+          <img className="hoverable-element" src='navbarLogo.png' alt='not available' height={'70vh'} width={'60vw'} />
         </div>
-        <div id='navright'>
+        <div id='navright' className={menuOpen ? 'open' : ''}>
           <button id='b1'><a className="hoverable-element" id='home' href=''>Home</a></button>
           <button id='b1'><a className="hoverable-element" id='backed' href=''>Why Us?</a></button>
           <button id='b1'><a className="hoverable-element" id='aboutus' href=''>About Us</a></button>
@@ -34,16 +38,11 @@ function App(){
           <button id='b1'><a className="hoverable-element" id='faqs' href=''>FAQs</a></button>
           <button id='b1'><a className="hoverable-element" id='contact' href=''>Contact</a></button>
         </div>
+        <button className='hamburger' onClick={toggleMenu}>
+        {menuOpen ? '✕' : '☰'}
+        </button>
       </div>
-      <Intro/>
-      <Brand/>
-      <Backedby/>
-      <Brandby/>
-      <About/>
       <OurService/>
-      <Video></Video>
-      <Feeback></Feeback>
-      <Faq/>
       <Contact/>
       <Footer/>
     </div>

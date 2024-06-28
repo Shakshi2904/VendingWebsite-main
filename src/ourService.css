@@ -19,6 +19,14 @@
     display: flex;
     flex-direction: row;
 }
+.laptopService{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.mobileService{
+    display: none;
+}
 .firstService .left{
     position: relative;
     height:50vh;
@@ -164,4 +172,74 @@ p .paraheading{
     position: relative;
     display: flex;
     flex-direction: row;
+    padding-left: 10%;
+}
+@media screen and (max-width: 1400px) {
+    .firstService .left{
+        width:50%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .firstService .left{
+        width:60%;
+        height:40vh;
+    }
+    .secondService .left{
+        width: 40%;
+        height:60vh;
+    }
+    .thirdService .left{
+        height: 60vh;
+    }
+    .left h1{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 720px) {
+    .ourServicePage h1{
+        font-size: 2rem;
+    }
+    .ourServicePage{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .laptopService{
+        display: none;
+    }
+    .mobileService{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .mobileService .left{
+        display: flex;
+        flex-direction: column;
+        background-color: #22116C;
+        text-align: left;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .left h1{
+        color: white;
+        font-size: 3.5rem;
+    }
+    .left p{
+        color: white;
+        font-size: 1.5rem;
+        margin-top: -3vh;
+        margin-bottom: 4vh;
+    }
+    .mobileService .right{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3vh;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .mobileService .imageSection{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 3vh;
+    }
 }

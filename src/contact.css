@@ -22,18 +22,21 @@
     justify-content: space-between;
     font-weight: bold;
 }
-.Fname{
+.mobilefield{
+    display: none;
+}
+.firstfield .Fname{
     position: relative;
     background-color: #E4E4E4;
-    width:45%;
+    width:40%;
     height:6vh;
     box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.25);
     transition: box-shadow 0.3s ease-in-out;
 }
-.Lname{
+.firstfield .Lname{
     position: relative;
     background-color: #E4E4E4;
-    width:45%;
+    width:40%;
     margin-right: 5%;
     height:6vh;
     box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.25);
@@ -58,6 +61,8 @@ input,textarea{
     background-color: #E4E4E4;
     border-radius: 10px;
     color: #22116C;
+    padding-left: 2vw;
+    padding-top: 0.5vh;
 }
 .textfield{
     margin-left: 30%;
@@ -72,8 +77,6 @@ input,textarea{
     transition: box-shadow 0.3s ease-in-out;
 }
 ::placeholder{
-    margin-top: 2vh;
-    padding-left: 2vw;
     color:#9385CE;
     font-weight: bolder;
 }
@@ -83,9 +86,57 @@ input,textarea{
     margin-top: 3vh;
     background-color: #22116C;
     height:5vh;
-    width: 9vw;
+    width: 11vw;
     display: flex;
     padding:1vh;
     border-radius: 10px;
     color:#FFE600;
+}
+
+@media screen and (max-width: 1100px){
+    .firstfield{
+        width: 60vw;
+        margin-left: 20%;
+    }
+    input,textarea{
+        width:60vw;
+    }
+    .restfield{
+        width: 57vw;
+        margin-left: 20%;
+    }
+    .textfield{
+        width: 57vw;
+        margin-left: 20%;
+    }
+    .contactbutton input{
+        width: 17vw;
+        margin-left: 40%;
+    }
+} 
+
+@media screen and (max-width: 750px){
+    .firstfield{
+        display: none;
+    }
+    .contact h1{
+        margin-bottom: 5vh;
+    }
+    .mobilefield{
+        margin-left: 20%;
+        position: relative;
+        margin-top: 3vh;
+        background-color: #E4E4E4;
+        height:6vh;
+        width: 57vw;
+        display: flex;
+        border-radius: 10px;
+        box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.25);
+        transition: box-shadow 0.3s ease-in-out;
+        color: #22116C;
+    }
+    .contactbutton input{
+        width: 25vw;
+        margin-left: 40%;
+    }
 }

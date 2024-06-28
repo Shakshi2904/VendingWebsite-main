@@ -6,21 +6,23 @@
 }
 #navbar{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     position: relative;
     background-image: url('/public/navbarbg.png');
     height: 30vh;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Lexend Exa', sans-serif;
+    width: 100%;
 }
 #navleft{
+    margin-top: 2vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 20vh;
-    margin-left: 5vh;
+    height: 10vh;
+    margin-left: 7vw;
 }
 #navleft h1{
     font-size: 3vh;
@@ -31,35 +33,117 @@
     color: #FFFF00;
 }
 #navright{
-    width: 35%;
+    margin-top: 2vh;
+    width: 40%;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 20vh;
-    margin-left: 50vh;
+    height: 10vh;
+    margin-right:0vw;
 }
 a{
     text-decoration: none;
     font-family: 'Lexend Exa', sans-serif;
+    margin-right: 2vw;
+    font-size: 0.8rem;
 }
 #navright select{
     border: none;
     color: #FFE600;
-    background-color: rgba(34, 17, 108, 1);
+    background-color: transparent;
+    margin-right: 2vw;
+    font-size: 0.8rem;
 }
 #b1{
     border: none;
-    background-color: rgba(34, 17, 108, 1)
+    background-color: transparent;
 }
 #b1 a{
     color: #FFE600;
 }
 #home{
-    padding : 10px;
+    padding : 0.7rem;
     border: 2px solid #FFE600;;
     border-radius: 10px;
     background-color: #FFE600;
 }
 #b1 #home{
     color: #22116C;
+}
+.hamburger {
+    display: none;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: #FFE600;
+    margin-top: 1vh;
+    margin-right: 1vw;
+    z-index: 1001;
+}
+@media screen and (max-width: 1500px){
+    #navright{
+        width: 45%;
+    }
+    a{
+        font-size: 0.7rem;
+    }
+    #navright select{
+        font-size: 0.7rem;
+    }
+}
+@media screen and (max-width: 1100px){
+    #navright{
+        margin-top: 0.5vh;
+    }
+    a{
+        font-size: 0.6rem;
+    }
+    #navright select{
+        font-size: 0.6rem;
+    }
+}
+@media screen and (max-width: 950px){
+    a{
+        font-size: 0.5rem;
+    }
+    #navright select{
+        font-size: 0.5rem;
+    }
+}
+@media screen and (max-width: 800px) {
+    #navleft{
+        margin-top: 1vh;
+    }
+    .hamburger {
+        display: block;
+        margin-top: -23vh;
+        margin-right: 3vh;
+    }
+    #navright {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #22116C;
+        position: absolute;
+        top: 1vh;
+        right: 0;
+        align-items: center;
+        height: 30vh;
+        padding-top: 2vh;
+    }
+    #navright.open {
+        display: flex;
+    }
+    #b1{
+        margin-bottom: 2vh;
+    }
+    #b1 #home{
+        border:none;
+        background-color: transparent;
+        color: #FFE600;
+    }
+    #navright a,
+    #navright select {
+        margin-right: 0;
+        margin-bottom: 2vh;
+        font-size: 1rem;
+    }
 }

@@ -9,6 +9,12 @@ function Contact() {
             <input className='Fname' type='text' placeholder='First Name' name='Fname' required/>
             <input className='Lname' type='text' placeholder='Last Name' name='Lname' required/>
         </div>
+        <div className='mobilefield'>
+        <input className='Fname' type='text' placeholder='First Name' name='Fname' required/>
+        </div>
+        <div className='mobilefield'>
+        <input className='Lname' type='text' placeholder='Last Name' name='Lname' required/>
+        </div>
         <div className='restfield'>
         <input type='email' placeholder='Email' name='Email' required/>
         </div>
@@ -22,7 +28,7 @@ function Contact() {
         <textarea type='text' rows="6" placeholder='Message' name='Message' required/>
         </div>
         <div className='contactbutton'>
-          <input type="submit" value="Submit→"/>
+          <input type="submit" value="Send Message →"/>
         </div>
       </form>
     </div>
