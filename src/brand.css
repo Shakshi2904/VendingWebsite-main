@@ -6,17 +6,24 @@
     align-items: center;
     font-family: 'Lexend Exa', sans-serif;
 }
-.brandpage h1{
-    color:#22116C;
+#brand{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#brand h1{
+    color: #22116C;
+    font-size: 7vh;
     font-weight: bolder;
-}
-.para{
-    margin-top: 10vh;
-}
-.para p{
-    position: relative;
-    color:rgba(128, 128, 128, 1);
+    margin: 5vh;
+    width: 80vw;
     text-align: center;
+}
+#brand p{
+    text-align: center;
+    color: #808080;
+    width: 90vh;
 }
 .brandPic{
     position: relative;
@@ -31,20 +38,9 @@
     color: black;
 }
 .storeGroup{
+    width: 8vw;
     margin-left:2vw;
     margin-right: 4rem;
-    text-align: center;
-}
-.brandname h1{
-    margin-top: 30vh;
-    color:#22116C;
-}
-.para{
-    margin-top: 3vh;
-}
-.para1 p{
-    position: relative;
-    color:rgba(128, 128, 128, 1);
     text-align: center;
 }
 .brandbutton{
