@@ -99,6 +99,15 @@ a{
     #navright select{
         font-size: 0.6rem;
     }
+    #navbar{
+        background-image: url('../public/nav.png');
+    }
+    #navleft{
+        margin-top: 4vh;
+    }
+    #navright{
+        margin-top: 4vh;
+    }
 }
 @media screen and (max-width: 950px){
     a{
@@ -107,14 +116,17 @@ a{
     #navright select{
         font-size: 0.5rem;
     }
+    #navbar{
+        height: 25vh;
+    }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 810px) {
     #navleft{
-        margin-top: 1vh;
+        margin-top: 2vh;
     }
     .hamburger {
         display: block;
-        margin-top: -23vh;
+        margin-top: -18vh;
         margin-right: 3vh;
     }
     #navright {
@@ -145,5 +157,47 @@ a{
         margin-right: 0;
         margin-bottom: 2vh;
         font-size: 1rem;
+    }
+}
+@media(max-width:600px){
+    #navleft img{
+        height: 7vh;
+        width: 7vh;
+    }
+    #navleft{
+        margin-top: 1vh;
+    }
+    #navbar{
+        height: 20vh;
+    }
+    .hamburger{
+        margin-top: -10vh;
+    }
+}
+@media(max-width:500px){
+    #navleft img{
+        height: 6vh;
+        width: 6vh;
+    }
+    #navleft{
+        margin-top: 0px;
+    }
+    .hamburger{
+        margin-top: -12vh;
+    }
+    #navbar{
+        height: 15vh;
+    }
+    .hamburger{
+        margin-top: -8vh;
+    }
+}
+@media(max-width:420px){
+    #navleft img{
+        height: 5vh;
+        width: 5vh;
+    }
+    #navleft{
+        margin-top: -1vh;
     }
 }

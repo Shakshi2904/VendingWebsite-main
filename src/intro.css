@@ -18,11 +18,12 @@
     font-size: 10vh;
     text-align: center;
     width: 70vw;
+    font-weight: bolder;
 }
 .intro{
     color: #6A6A6A;
     text-align: center;
-    width: 50vw;
+    width: 60vw;
     margin: 8vh;
 }
 #introbutton button{
@@ -51,4 +52,36 @@
     color: #FFE600;
     background-color: #22116C;
     font-family: "Lexend Deca", sans-serif;
+}
+@media(max-width:1000px){
+    .intro{
+        margin: 6vh;
+    }
+}
+@media(max-width:720px){
+    .heading{
+        font-size: 8vh;
+    }
+    #introb{
+        flex-direction: column;
+        align-items: center;
+    }
+    #introbutton button{
+        width: 30vw;
+        margin: 1vh;
+    }
+}
+@media(max-width:450px){
+    .heading{
+        font-size: 6vh;
+    }
+}
+@media(max-width:390px){
+    .heading{
+        font-size: 5vh;
+    }
+    #introbutton button{
+        width: 40vw;
+        margin: 1vh;
+    }
 }

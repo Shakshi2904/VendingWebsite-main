@@ -21,3 +21,41 @@
     width: 99vw;
     margin-bottom: 10vh;
 }
+#aboutvideo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media(max-width:720px){
+    #about p{
+        width: 70vh;
+    }
+}
+@media(max-width:500px){
+    #about h1{
+        font-size: 6vh;
+    }
+    #about p{
+        width: 50vh;
+    }
+}
+@media(max-width:370px){
+    #about h1{
+        margin: 2vh;
+    }
+    #about p{
+        width: 45vh;
+    }
+    #aboutvideo video{
+        height: 25vh;
+    }
+}
+@media(max-width:320px){
+    #about h1{
+        margin: 1vh;
+        text-align: center;
+    }
+    #about p{
+        width: 35vh;
+    }
+}

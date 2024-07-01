@@ -1,7 +1,7 @@
 import './ourService.css';
 function OurService(){
     return(
-        <div className='ourServicePage'>
+        <div className='ourServicePage' id='ourserver'>
             <div>
                 <h1 className="hoverable-element">OUR SERVICES</h1>
             </div>

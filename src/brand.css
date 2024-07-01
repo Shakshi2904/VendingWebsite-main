@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Lexend Exa', sans-serif;
+    font-family: "Lexend Deca", sans-serif;
 }
 #brand{
     display: flex;
@@ -13,6 +13,7 @@
     align-items: center;
 }
 #brand h1{
+    font-family: "Lexend Deca", sans-serif;
     color: #22116C;
     font-size: 7vh;
     font-weight: bolder;
@@ -21,6 +22,7 @@
     text-align: center;
 }
 #brand p{
+    font-family: "Lexend Deca", sans-serif;
     text-align: center;
     color: #808080;
     width: 90vh;
@@ -32,9 +34,11 @@
     padding: 1.5rem;
 }
 .brandPic h2{
+    font-family: "Lexend Deca", sans-serif;
     color: black;
 }
 .brandPic p{
+    font-family: "Lexend Deca", sans-serif;
     color: black;
 }
 .storeGroup{
@@ -61,4 +65,39 @@
 }
 .logosection{
     height: 70vh;
+}
+@media(max-width:720px){
+    .storeGroup{
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 25vh;
+        align-items: center;
+    }
+    .brandPic{
+        margin-top: 5vh;
+        display: flex;
+        flex-direction: column;
+        padding: 1.5rem;
+    }
+}
+@media(max-width:600px){
+    #brand h1{
+        font-size: 6vh;
+    }
+    #brand p{
+        width: 60vh;
+    }
+}
+
+@media(max-width:450px){
+    #brand p{
+        width: 40vh;
+    }
+}
+@media(max-width:360px){
+    #brand h1{
+        font-size: 5vh;
+    }
 }

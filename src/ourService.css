@@ -109,6 +109,7 @@ p .paraheading{
     flex-direction: column;
     width: 30%;
     color:yellow;
+    margin-left: 2vw;
 }
 .left h1{
     margin-top: 10%;
@@ -173,26 +174,31 @@ p .paraheading{
     display: flex;
     flex-direction: row;
     padding-left: 10%;
+    justify-content: center;
 }
 @media screen and (max-width: 1400px) {
     .firstService .left{
+        height: 60vh;
         width:50%;
+    }
+    .secondService .left{
+        width: 40%;
+        height: 95vh;
+    }
+    .thirdService .left{
+        height: 95vh;
     }
 }
 @media screen and (max-width: 1000px) {
     .firstService .left{
         width:60%;
-        height:40vh;
-    }
-    .secondService .left{
-        width: 40%;
-        height:60vh;
-    }
-    .thirdService .left{
-        height: 60vh;
+        height: 50vh;
     }
     .left h1{
         font-size: 2rem;
+    }
+    .eachLine .content{
+        font-size: 0.7rem;
     }
 }
 @media screen and (max-width: 720px) {
@@ -241,5 +247,15 @@ p .paraheading{
         flex-direction: column;
         text-align: center;
         margin-top: 3vh;
+    }
+}
+@media(max-width:350px){
+    .left h1{
+        color: white;
+        font-size: 2.75rem;
+    }
+    .mobileService .imageSection img{
+        height: 40vh;
+        width: 90vw;
     }
 }

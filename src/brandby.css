@@ -51,11 +51,13 @@
     font-family: "Lexend Deca", sans-serif;
     margin: 2vh;
     font-weight: bolder;
+    text-align: center;
 }
 #brandby p{
     color: #808080;
     font-family: "Lexend Deca", sans-serif;
     text-align: center;
+    width: 70vh;
 }
 .brandbybutton{
     display: flex;
@@ -69,4 +71,76 @@
     border-radius: 10px;
     color:#FFE600;
     background-color: #22116C;;
+}
+@media(max-width:950px){
+    #part1{
+        flex-wrap: wrap;
+    }
+#cocacola{
+    margin: 0px;
+}
+#haldiram{
+    margin: 0px;
+}
+#nestle{
+    margin: 0px;
+}
+#balaji{
+    margin: 0px;
+}
+#amul{
+    margin: 0px;
+}
+#itc{
+    margin: 0px;
+}
+#chedda{
+    margin: 0px;
+}
+#cavin{
+    margin: 0px;
+}
+#monginis{
+    margin: 0px;
+}
+#wafflemill{
+    margin: 0px;
+}
+#snackible{
+    margin: 0px;
+}
+#paperboat{
+    margin: 0px;
+}
+}
+@media(max-width:720px){
+    #brandbyb{
+        width: 30vw;
+        margin: 1vh;
+    }
+    #part1{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media(max-width:460px){
+    #brandby h1{
+        font-size: 6vh;
+    }
+    #brandby p{
+        width: 50vh;
+    }
+}
+@media(max-width:360px){
+    #brandby h1{
+        font-size: 5vh;
+    }
+    #brandby p{
+        width: 45vh;
+    }
+    #brandbyb{
+        width: 40vw;
+        margin: 1vh;
+    }
 }
