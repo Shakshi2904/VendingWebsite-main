@@ -10,7 +10,9 @@ function Feeback(){
             <p className="hoverable-element">All time favourite among customers. Customer<br></br> growth rate increasing exponentially.</p>
         </div>
         <div className="scrollimg">
-            {notecontent.map((notes)=>(<Note b={notes}/>))}
+            
+        {notecontent.map((content, index) => (<Note key={index} content={content} />))}
+            
         </div>
         <div id='postbutton'><button id='post' className="hoverable-element">Post a Feedback →</button></div>
         </div>

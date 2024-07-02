@@ -2,7 +2,7 @@ import React from 'react';
 import './contact.css';
 function Contact() {
   return (
-    <div className="contact">
+    <div className="contact" id='contactpage'>
       <h1 className="hoverable-element">CONTACT US!</h1>
       <form action="/adddata" method="post">
         <div className='firstfield'>
@@ -27,9 +27,9 @@ function Contact() {
         <div className='textfield'>
         <textarea type='text' rows="6" placeholder='Message' name='Message' required/>
         </div>
-        <div className='contactbutton'>
-          <input type="submit" value="Send Message →"/>
-        </div>
+        <div className='brandbybutton'>
+        <button id='brandbyb' className="hoverable-element">Send Message→</button>
+       </div>
       </form>
     </div>
   );

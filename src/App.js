@@ -20,29 +20,37 @@ function App(){
   };
   return (
     <div>
-      <MaskCursor />
+      <MaskCursor/>
       <div id='navbar'>
         <div id='navleft'>
           <img className="hoverable-element" src='navbarLogo.png' alt='not available' height={'70vh'} width={'60vw'} />
         </div>
         <div id='navright' className={menuOpen ? 'open' : ''}>
-          <button id='b1'><a className="hoverable-element" id='home' href=''>Home</a></button>
-          <button id='b1'><a className="hoverable-element" id='backed' href=''>Why Us?</a></button>
-          <button id='b1'><a className="hoverable-element" id='aboutus' href=''>About Us</a></button>
+          <button id='b1'><a className="hoverable-element" id='home' href='#home'>Home</a></button>
+          <button id='b1'><a className="hoverable-element" id='backed' href='#ourserver'>Why Us?</a></button>
+          <button id='b1'><a className="hoverable-element" id='aboutus' href='#about'>About Us</a></button>
           <select className="hoverable-element">
             <option selected>Our Services</option>
             <option>Haldiram</option>
             <option>Coke</option>
             <option>Pepsi</option>
           </select>
-          <button id='b1'><a className="hoverable-element" id='faqs' href=''>FAQs</a></button>
-          <button id='b1'><a className="hoverable-element" id='contact' href=''>Contact</a></button>
+          <button id='b1'><a className="hoverable-element" id='faqs' href='#FAQ'>FAQs</a></button>
+          <button id='b1'><a className="hoverable-element" id='contact' href='#contactpage'>Contact</a></button>
         </div>
         <button className='hamburger' onClick={toggleMenu}>
         {menuOpen ? '✕' : '☰'}
         </button>
       </div>
+      <Intro/>
+      <Brand/>
+      <Backedby/>
+      <Brandby/>
+      <About/>
       <OurService/>
+      <Video/>
+      <Faq/>
+      <Feeback></Feeback>
       <Contact/>
       <Footer/>
     </div>

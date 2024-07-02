@@ -13,3 +13,50 @@
     font-size: 8vh;
     font-weight: bolder;
 }
+@media(max-width:1250px){
+    .backedimages img{
+        height: 13vh;
+    }
+}
+@media(max-width:1090px){
+    .backedimages img{
+        height: 11vh;
+    }
+    .backedimages{
+        margin: 0px;
+    }
+}
+@media(max-width:850px){
+    .backedimages img{
+        height: 9.5vh;
+    }
+}
+@media(max-width:750px){
+    .backedimages img{
+        width: 30vh;
+        height: 18.5vh;
+        margin: 1vh;
+    }
+    .backedimages{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 5vh;
+    }
+    .backed p{
+        margin: 0px;
+    }
+}
+@media(max-width:460px){
+    .backed p{
+        font-size: 6vh;
+    }
+    .backedimages{
+        margin: 3vh;
+    }
+}
+@media(max-width:360px){
+    .backed p{
+        font-size: 5vh;
+    }
+}

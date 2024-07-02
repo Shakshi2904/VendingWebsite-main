@@ -2,7 +2,7 @@ import './faq.css';
 
 function Faq() {
   return (
-    <div className='faqpage'>
+    <div className='faqpage' id='FAQ'>
         <div>
             <h1>FAQs</h1>
         </div>
