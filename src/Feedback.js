@@ -14,7 +14,8 @@ function Feeback(){
         {notecontent.map((content, index) => (<Note key={index} content={content} />))}
             
         </div>
-        <div id='postbutton'><button id='post' className="hoverable-element">Post a Feedback →</button></div>
+        <div id='postbutton'>
+        <a href='#contactpage'><button id='post' className="hoverable-element">Post a Feedback →</button></a></div>
         </div>
     );
 }

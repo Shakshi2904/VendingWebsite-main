@@ -9,12 +9,6 @@ function Contact() {
             <input className='Fname' type='text' placeholder='First Name' name='Fname' required/>
             <input className='Lname' type='text' placeholder='Last Name' name='Lname' required/>
         </div>
-        <div className='mobilefield'>
-        <input className='Fname' type='text' placeholder='First Name' name='Fname' required/>
-        </div>
-        <div className='mobilefield'>
-        <input className='Lname' type='text' placeholder='Last Name' name='Lname' required/>
-        </div>
         <div className='restfield'>
         <input type='email' placeholder='Email' name='Email' required/>
         </div>

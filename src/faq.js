@@ -87,7 +87,7 @@ function Faq() {
         <br/><br/><br/><br/>
         <div id='introbutton'>
                 <div id='introb'>
-                <button id='reachb' className='hoverable-element'>Ask a Question→</button>
+                <a href='#contactpage'><button id='reachb' className='hoverable-element'>Ask a Question→</button></a>
                 </div>
         </div>
   </div>
