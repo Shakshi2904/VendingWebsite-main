@@ -5,28 +5,24 @@
     font-family: 'Lexend Exa', sans-serif;
 }
 #videoleft{
-    display: flex;
-    align-items: center;
+    display: -webkit-box;
 }
 #videoleft button{
     color: #22116C;
-    height: 8vh;
-    width: 4vw;
+    padding: 1vw;
     margin-right: 1vw;
-    border-radius: 50px;
+    border-radius: 100%;
     border: 2px solid white;
     font-size: 2vh;
 }
 #videoright{
-    display: flex;
-    align-items: center;
+    display: -webkit-box;
 }
 #videoright button{
     color: #22116C;
-    height: 8vh;
-    width: 4vw;
+    padding: 1vw;
     margin-right: 1vw;
-    border-radius: 50px;
+    border-radius: 100%;
     border: 2px solid white;
     font-size: 2vh;
 }
@@ -43,7 +39,21 @@
     font-size: 7vh;
     font-weight: bolder;
 }
+@media(max-width:900px){
+    #videoright button{
+        padding: 1.5vw;
+    }
+    #videoleft button{
+        padding: 1.5vw;
+    }
+}
 @media(max-width:720px){
+    #videoright button{
+        padding: 2vw;
+    }
+    #videoleft button{
+        padding: 2vw;
+    }
     #video p{
         width: 40vh;
     }
@@ -69,6 +79,12 @@
     }
 }
 @media(max-width:460px){
+    #videoright button{
+        padding: 2.5vw;
+    }
+    #videoleft button{
+        padding: 2.5vw;
+    }
     #how h1{
         font-size: 6vh;
     }

@@ -90,6 +90,7 @@
     border: 2px solid white;
     background-color: rgba(34, 17, 108, 1);
     font-family: 'Lexend Exa', sans-serif;
+    color: #FFE600;
 }
 #postbutton{
     display: flex;

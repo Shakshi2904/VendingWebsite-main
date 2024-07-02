@@ -20,15 +20,15 @@ const MyNavbar = () => {
         <div><img className="hoverable-element" height={'130vh'} src='chedda.png' id='chedda'/></div>
         </div>
         <div id='part1'>
-        <div><img className="hoverable-element" height={'130vh'} src='cavins.png' id='cavin'/></div>
-        <div><img className="hoverable-element" height={'130vh'} src='monginis.png' id='monginis'/></div>
-        <div><img className="hoverable-element" height={'130vh'} src='wafflemill.png' id='wafflemill'/></div>
-        <div><img className="hoverable-element" height={'130vh'} src='snackible.png' id='snackible'/></div>
-        <div><img className="hoverable-element" height={'130vh'} src='paperboat.png' id='paperboat'/></div>
+        <div><img className="hoverable-element" height={'160vh'} src='cavins.png' id='cavin'/></div>
+        <div><img className="hoverable-element" height={'160vh'} src='monginis.png' id='monginis'/></div>
+        <div><img className="hoverable-element" height={'160vh'} src='wafflemill.png' id='wafflemill'/></div>
+        <div><img className="hoverable-element" height={'160vh'} src='snackible.png' id='snackible'/></div>
+        <div><img className="hoverable-element" height={'160vh'} src='paperboat.png' id='paperboat'/></div>
         </div>
        </div>
        <div className='brandbybutton'>
-        <button id='brandbyb' className="hoverable-element">Apply for Colab→</button>
+       <a href='#contactpage'><button id='brandbyb' className="hoverable-element">Apply for Colab→</button></a>
        </div>
     </div>
   );
