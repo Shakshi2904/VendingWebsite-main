@@ -100,18 +100,6 @@
 @media(max-width:330px){
     #video video{
         height: 20vh;
-        margin-left: 2vh;
-    }
-    .video1 #videoleft{
-        width: 45vh;
-    }
-    .video3 #videoleft{
-        width: 45vh;
-    }
-    .video2 #videoright{
-        width: 45vh;
-    }
-    .video4 #videoright{
-        width: 45vh;
+        width: 30vh;
     }
 }
