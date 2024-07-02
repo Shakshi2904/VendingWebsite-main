@@ -27,7 +27,7 @@ function App(){
         </div>
         <div id='navright' className={menuOpen ? 'open' : ''}>
           <button id='b1'><a className="hoverable-element" id='home' href='#home'>Home</a></button>
-          <button id='b1'><a className="hoverable-element" id='backed' href='#brand'>Why Us?</a></button>
+          <button id='b1'><a className="hoverable-element" id='backed' href='#ourserver'>Why Us?</a></button>
           <button id='b1'><a className="hoverable-element" id='aboutus' href='#about'>About Us</a></button>
           <select className="hoverable-element">
             <option selected>Our Services</option>
