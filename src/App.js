@@ -43,7 +43,6 @@ function App(){
         </button>
       </div>
       <Intro/>
-      <Brand/>
       <Backedby/>
       <Brandby/>
       <About/>

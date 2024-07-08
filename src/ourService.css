@@ -8,6 +8,9 @@
     color:#22116C;
     font-family: 'Lexend Exa', sans-serif;
 }
+#ourh{
+    text-align: center;
+}
 .ourServicePage h1{
     font-size: 2.5rem;
     font-weight: 900;
@@ -29,11 +32,11 @@
 }
 .firstService .left{
     position: relative;
-    height:50vh;
+    height:fit-content;
     background-color: #22116C;
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 50%;
     color:yellow;
 }
 .left h1{
@@ -46,15 +49,14 @@
     font-weight: bold;
 }
 .left p{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-bottom: 5vh;
     color:yellow;
     background-color: #22116C;
     font-size: 0.9rem;
 }
 .firstService .right{
     position: relative;
-    height:50vh;
+    height:fit-content;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -103,7 +105,7 @@ p .paraheading{
 
 .secondService .left{
     position: relative;
-    height:70vh;
+    height:fit-content;
     background-color: #22116C;
     display: flex;
     flex-direction: column;
@@ -130,7 +132,7 @@ p .paraheading{
 
 .secondService .right{
     position: relative;
-    height:50vh;
+    height:fit-content;
     display: flex;
     flex-direction: column;
     width: 70%;
@@ -153,7 +155,7 @@ p .paraheading{
 }
 .thirdService .left{
     position: relative;
-    height:70vh;
+    height:fit-content;
     background-color: #22116C;
     display: flex;
     flex-direction: column;
@@ -162,7 +164,7 @@ p .paraheading{
 }
 .thirdService .right{
     position: relative;
-    height:50vh;
+    height:fit-content;
     display: flex;
     flex-direction: column;
     width: 70%;
@@ -177,23 +179,8 @@ p .paraheading{
     justify-content: center;
 }
 @media screen and (max-width: 1400px) {
-    .firstService .left{
-        height: 60vh;
-        width:50%;
-    }
-    .secondService .left{
-        width: 40%;
-        height: 95vh;
-    }
-    .thirdService .left{
-        height: 95vh;
-    }
 }
 @media screen and (max-width: 1000px) {
-    .firstService .left{
-        width:60%;
-        height: 50vh;
-    }
     .left h1{
         font-size: 2rem;
     }
@@ -254,8 +241,7 @@ p .paraheading{
         color: white;
         font-size: 2.75rem;
     }
-    .mobileService .imageSection img{
-        height: 40vh;
-        width: 90vw;
+    .imageSection img{
+        width: 40vh;
     }
 }

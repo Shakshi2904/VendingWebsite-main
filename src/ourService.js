@@ -3,7 +3,7 @@ function OurService(){
     return(
         <div className='ourServicePage' id='ourserver'>
             <div>
-                <h1 className="hoverable-element">OUR SERVICES</h1>
+                <h1 className="hoverable-element" id='ourh'>OUR SERVICES</h1>
             </div>
             <div className='laptopService'>
             <div className='firstService'>

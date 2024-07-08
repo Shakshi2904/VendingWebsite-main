@@ -15,9 +15,14 @@
 }
 
 .faqpage .para{
+    margin-bottom: 5vh;
+}
+.faqpage .para p{
+    text-align: center;
+    color:#636363;
     font-size: 0.7rem;
     color:#636363;
-    margin-bottom: 10vh;
+    margin-top: 5vh;
 }
 .faqpage .eachFaq{
     position: relative;

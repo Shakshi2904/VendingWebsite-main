@@ -57,6 +57,9 @@
     .intro{
         margin: 6vh;
     }
+    .heading{
+        font-size: 8vh;
+    }
 }
 @media(max-width:720px){
     .heading{

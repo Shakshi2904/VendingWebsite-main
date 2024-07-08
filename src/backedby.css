@@ -1,6 +1,7 @@
 .backedimages{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     margin: 10vh;
 }
 .backed{
@@ -31,7 +32,7 @@
         height: 9.5vh;
     }
 }
-@media(max-width:750px){
+@media(max-width:830px){
     .backedimages img{
         width: 30vh;
         height: 18.5vh;
@@ -44,7 +45,15 @@
         margin: 5vh;
     }
     .backed p{
-        margin: 0px;
+        margin: 10px;
+    }
+}
+@media(max-width:720px){
+    .backed p{
+        margin-top: 5vh;
+    }
+    .backedimages{
+        display: flex;
     }
 }
 @media(max-width:460px){
@@ -58,5 +67,6 @@
 @media(max-width:360px){
     .backed p{
         font-size: 5vh;
+        margin-top: 5vh;
     }
 }

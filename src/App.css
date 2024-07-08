@@ -101,12 +101,13 @@ a{
     }
     #navbar{
         background-image: url('../public/nav.png');
+        height: 30vh;
     }
     #navleft{
-        margin-top: 4vh;
+        margin-top: 1vh;
     }
     #navright{
-        margin-top: 4vh;
+        margin-top: 1vh;
     }
 }
 @media screen and (max-width: 950px){
@@ -120,9 +121,9 @@ a{
         height: 25vh;
     }
 }
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 830px) {
     #navleft{
-        margin-top: 2vh;
+        margin-top: 0vh;
     }
     .hamburger {
         display: block;
@@ -192,10 +193,11 @@ a{
         margin-top: -8vh;
     }
 }
-@media(max-width:420px){
+@media(max-width:450px){
     #navleft img{
         height: 5vh;
         width: 5vh;
+        margin-top: -1vh;
     }
     #navleft{
         margin-top: -1vh;

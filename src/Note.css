@@ -124,6 +124,10 @@
         width: 25vw;
         height: 22vh;
     }
+    #feedbackpic img{
+        height: 7vh;
+        width: 7vh;
+    }
 }
 @media(max-width:720px){
     .n{
@@ -144,11 +148,19 @@
         width: 35vw;
         margin: 1vh;
     }
+    #feedbackpic img{
+        height: 7vh;
+        width: 7vh;
+    }
 }
 @media(max-width:530px){
     .n{
         width: 40vw;
         height: 25vh;
+    }
+    #feedbackpic img{
+        height: 6vh;
+        width: 6vh;
     }
 }
 @media(max-width:430px){
@@ -170,6 +182,10 @@
         color:rgba(34, 17, 108, 1);
         background-color: white;
         font-size: 2vh;
+    }
+    #feedbackpic img{
+        height: 5vh;
+        width: 5vh;
     }
 }
 @media(max-width:290px){
