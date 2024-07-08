@@ -25,8 +25,8 @@
 }
 #wafflemill{
     margin-right: 20vh;
-    margin-top: -5vh;
-    height: 30vh;
+    margin-top: -1vh;
+    height: 20vh;
 }
 #snackible{
     margin-top: 10vh;
@@ -37,6 +37,7 @@
 #part1{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 #brandby{
     display: flex;
@@ -113,6 +114,9 @@
     margin: 0px;
 }
 }
+#image{
+    display: none;
+}
 @media(max-width:720px){
     #brandbyb{
         width: 30vw;
@@ -123,24 +127,37 @@
         justify-content: center;
         align-items: center;
     }
+    #images{
+        display: none;
+    }
+    #image{
+        display: block;
+        display: flex;
+        overflow-x: auto;
+        margin: 20vw;
+    }
 }
 @media(max-width:460px){
-    #brandby h1{
-        font-size: 6vh;
-    }
-    #brandby p{
-        width: 50vh;
-    }
-}
-@media(max-width:360px){
     #brandby h1{
         font-size: 5vh;
     }
     #brandby p{
-        width: 45vh;
+        width: 35vh;
+    }
+    #image img{
+        height: 15vh;
+    }
+}
+@media(max-width:380px){
+    #brandby h1{
+        font-size: 5vh;
     }
     #brandbyb{
         width: 40vw;
         margin: 1vh;
+    }
+    #image img{
+        height: 10vh;
+        width: 20vw;
     }
 }

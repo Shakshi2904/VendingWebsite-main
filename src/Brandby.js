@@ -27,6 +27,20 @@ const MyNavbar = () => {
         <div><img className="hoverable-element" height={'130vh'} src='paperboat.png' id='paperboat'/></div>
         </div>
        </div>
+       <div id='image'>
+        <div><img className="hoverable-element" height={'130vh'} src='cocacola.png' id='cocacola'/></div>
+        <div><img className="hoverable-element" height={'130vh'} src='balaji.png' id='balaji'/></div>
+        <div><img className="hoverable-element" height={'130vh'} src='itc.png' id='itc'/></div>
+        <div><img className="hoverable-element" height={'130vh'} src='haldiram.png' id='haldiram'/></div>
+        <div><img className="hoverable-element" height={'130vh'} src='nestle.png' id='nestle'/></div>
+        <div><img className="hoverable-element" height={'130vh'} src='amul.png' id='amul'/></div>
+        <div><img className="hoverable-element" height={'130vh'} src='chedda.png' id='chedda'/></div>
+        <div><img className="hoverable-element" height={'130vh'} src='cavins.png' id='cavin'/></div>
+        <div><img className="hoverable-element" height={'130vh'} src='monginis.png' id='monginis'/></div>
+        <div><img className="hoverable-element" height={'130vh'} src='wafflemill.png' id='wafflemill'/></div>
+        <div><img className="hoverable-element" height={'130vh'} src='snackible.png' id='snackible'/></div>
+        <div><img className="hoverable-element" height={'130vh'} src='paperboat.png' id='paperboat'/></div>
+        </div>
        <div className='brandbybutton'>
        <a href='#contactpage'><button id='brandbyb' className="hoverable-element">Apply for Colab→</button></a>
        </div>
