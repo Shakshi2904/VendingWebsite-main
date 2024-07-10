@@ -38,13 +38,16 @@
         align-items: center;
         flex-direction: column;
     }
-    .backed h1 {
-        margin: 5vh;
+    #bh {
+        margin-bottom: 0vh;
     }
 }
-@media(max-width:720px){
+@media(max-width:750px){
     .backedimages{
         display: flex;
+    }
+    #bh{
+        margin-bottom: 0vh;
     }
 }
 @media(max-width:460px){

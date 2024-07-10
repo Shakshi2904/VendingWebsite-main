@@ -1,3 +1,4 @@
+
 .introbg{
     background-image: url('../public/introbg.png');
     display: flex;
@@ -14,7 +15,8 @@
     justify-content: center;
     align-items: center;
 }
-.heading{
+#intro .heading{
+    font-family: 'Karantina';
     color: #22116C;
     font-size: 10vh;
     text-align: center;
@@ -72,16 +74,30 @@
         margin-top: -15vh;
     }
     .introbg{
-        height: 90vh;
+        height: 100vh;
+    }
+}
+@media(max-width:450px){
+    .introbg{
+        height: 110vh;
     }
 }
 @media(max-width:390px){
     .heading{
         font-size: 5vh;
     }
+    .introbg{
+        height: 120vh;
+    }
 }
 @media(max-width:330px){
     .introbg{
         height: 110vh;
+    }
+    .introbg{
+        height: 130vh;
+    }
+    #intro .heading{
+        font-size: 8vh;
     }
 }
