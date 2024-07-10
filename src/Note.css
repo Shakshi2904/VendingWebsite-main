@@ -9,13 +9,13 @@
 }
 .feed{
     margin-top: 5vh;
-    font-family: 'Lexend Exa', sans-serif;
+    font-family: 'Lexend';
     background-image: url('../public/feedbackbg.png');
 }
 .n{
     text-align: start;
     width: 15vw;
-    height: 13vh;
+    height: 6vh;
     padding: 20px;
     background-color: white;
     color: rgba(113, 113, 113, 1);
@@ -46,7 +46,6 @@
 }
 #feedback h1{
     margin-bottom:2vh;
-    font-size: 5vh;
     color:rgba(34, 17, 108, 1);
 }
 #feedback p{
@@ -86,66 +85,72 @@
 #post{
     width: 15vw;
     height: 7vh;
+    font-size: 1rem;
     border-radius: 10px;
     border: 2px solid white;
     background-color: rgba(34, 17, 108, 1);
-    font-family: 'Lexend Exa', sans-serif;
+    font-family: 'Lexend';
+    cursor: pointer;
     color: #FFE600;
+}
+#post:hover{
+    background-color: #FFE600;
+    color: rgba(34, 17, 108, 1);
 }
 #postbutton{
     display: flex;
     justify-content: center;
-    font-family: 'Lexend Exa', sans-serif;
+    font-family: 'Lexend';
 }
 @media(max-width:1300px){
     .n{
         width: 17vw;
-        height: 20vh;
+        height: 8vh;
     }
 }
 @media(max-width:1050px){
     .n{
         width: 21vw;
-        height: 20vh;
+        height: 8vh;
     }
     #post{
-        width: 25vw;
+        width: 20vw;
         margin: 1vh;
     }
 }
 @media(max-width:900px){
     .n{
         width: 23vw;
-        height: 22vh;
+        height: 8vh;
     }
 }
 @media(max-width:800px){
     .n{
         width: 25vw;
-        height: 22vh;
+        height:8vh;
     }
     #feedbackpic img{
         height: 7vh;
         width: 7vh;
     }
 }
-@media(max-width:720px){
+@media(max-width:740px){
     .n{
         width: 30vw;
-        height: 22vh;
+        height: 10vh;
     }
     #post{
-        width: 30vw;
+        width: 25vw;
         margin: 1vh;
     }
 }
 @media(max-width:650px){
     .n{
         width: 32vw;
-        height: 24vh;
+        height: 14vh;
     }
     #post{
-        width: 35vw;
+        width: 30vw;
         margin: 1vh;
     }
     #feedbackpic img{
@@ -156,17 +161,17 @@
 @media(max-width:530px){
     .n{
         width: 40vw;
-        height: 25vh;
+        height: 10vh;
     }
     #feedbackpic img{
         height: 6vh;
         width: 6vh;
     }
 }
-@media(max-width:430px){
+@media(max-width:470px){
     .n{
         width: 45vw;
-        height: 26vh;
+        height: 15vh;
     }
     #post{
         width: 45vw;
@@ -176,7 +181,7 @@
 @media(max-width:370px){
     .n{
         width: 50vw;
-        height: 30vh;
+        height: 20vh;
     }
     #name h2{
         color:rgba(34, 17, 108, 1);
@@ -191,6 +196,6 @@
 @media(max-width:290px){
     .n{
         width: 50vw;
-        height: 35vh;
+        height: 20vh;
     }
 }

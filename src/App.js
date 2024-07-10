@@ -18,6 +18,7 @@ function App(){
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
+  
   return (
     <div>
       <MaskCursor/>
@@ -43,13 +44,14 @@ function App(){
         </button>
       </div>
       <Intro/>
-      <Backedby/>
+      <Brand/>
       <Brandby/>
       <About/>
       <OurService/>
       <Video/>
       <Faq/>
       <Feeback></Feeback>
+      <Backedby/>
       <Contact/>
       <Footer/>
     </div>

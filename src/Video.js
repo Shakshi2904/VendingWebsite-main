@@ -2,7 +2,9 @@ import './video.css';
 function Video(){
     return(
         <div>
-        <div id='how'><h1 className="hoverable-element">HOW IT WORKS?</h1></div>
+        <div id='how'>
+        <div  className='ourServicePage'><h1 className="hoverable-element">HOW IT WORKS?</h1></div>
+            </div>
             <div id='video' className='video1'>
                 <div id='videoleft'>
                     <video width="320" height="240" autoplay>

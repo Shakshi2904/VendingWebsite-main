@@ -6,7 +6,7 @@
     flex-direction: column;
     align-items: center;
     color:#22116C;
-    font-family: 'Lexend Exa', sans-serif;
+    font-family: 'Lexend';
 }
 #ourh{
     text-align: center;
@@ -16,6 +16,7 @@
     font-weight: 900;
     color:#22116C;
     margin-bottom: 10vh;
+    font-family: 'Lexend';
 }
 .ourServicePage .firstService{
     position: relative;

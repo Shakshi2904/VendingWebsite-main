@@ -3,7 +3,7 @@ import './contact.css';
 function Contact() {
   return (
     <div className="contact" id='contactpage'>
-      <h1 className="hoverable-element">CONTACT US!</h1>
+      <div  className='ourServicePage'><h1 className="hoverable-element">CONTACT US!</h1></div>
       <form action="/adddata" method="post">
         <div className='firstfield'>
             <input className='Fname' type='text' placeholder='First Name' name='Fname' required/>
@@ -22,7 +22,7 @@ function Contact() {
         <textarea type='text' rows="6" placeholder='Message' name='Message' required/>
         </div>
         <div className='brandbybutton'>
-        <button id='brandbyb' className="hoverable-element">Send Message→</button>
+        <button  id='post' className="hoverable-element">Send Message→</button>
        </div>
       </form>
     </div>

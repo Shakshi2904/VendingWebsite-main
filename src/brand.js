@@ -4,7 +4,7 @@ function Brand() {
   return (
     <div className='brandpage'>
         <div id='brand' className="hoverable-element">
-                <h1 className="hoverable-element">MAKING INDIA FUTURE READY WITH UNMANNED QUICK BUYING SOLUTIONS</h1>
+          <div className='ourServicePage'><h1 className="hoverable-element">MAKING INDIA FUTURE READY WITH UNMANNED QUICK BUYING SOLUTIONS</h1></div>
                 <p className="hoverable-element"> Enabling last mile distribution through retailers & franchise partners through intelligent retail offerings.</p></div>
         <div className='brandPic'>
             <div className='storeGroup'>

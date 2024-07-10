@@ -6,7 +6,7 @@
     background-color: rgba(46, 46, 46, 1);
     height: 30vh;
     margin-top: 2vh;
-    font-family: 'Lexend Exa', sans-serif;
+    font-family: 'Lexend ';
 }
 #footlaptop{
     display: flex;
@@ -127,7 +127,7 @@
         flex-direction: column;
         background-color: rgba(46, 46, 46, 1);
         margin-top: 10vh;
-        font-family: 'Lexend Exa', sans-serif;
+        font-family: 'Lexend ';
         align-items: center;
         color:#B7B7B7;
     }
@@ -156,5 +156,6 @@
     .mobileFooter a{
         color:#B7B7B7;
         margin-right: 4vw;
+        font-size: 1rem ;
     }
 }

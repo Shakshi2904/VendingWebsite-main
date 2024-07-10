@@ -3,7 +3,9 @@
     margin: 0px;
     padding: 0px;
     color: white;
+    font-family: 'Lexend';
 }
+
 #navbar{
     display: flex;
     justify-content: space-between;
@@ -12,7 +14,7 @@
     height: 30vh;
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'Lexend Exa', sans-serif;
+    font-family: 'Lexend';
     width: 100%;
 }
 #navleft{
@@ -33,15 +35,15 @@
     color: #FFFF00;
 }
 #navright{
-    margin-top: 2vh;
     width: 40%;
+    margin-top: 2vh;
     display: flex;
     height: 10vh;
     margin-right:0vw;
 }
 a{
     text-decoration: none;
-    font-family: 'Lexend Exa', sans-serif;
+    font-family: 'Lexend';
     margin-right: 2vw;
     font-size: 0.8rem;
 }
@@ -78,7 +80,7 @@ a{
     margin-right: 1vw;
     z-index: 1001;
 }
-@media screen and (max-width: 1500px){
+@media(max-width: 1400px){
     #navright{
         width: 45%;
     }

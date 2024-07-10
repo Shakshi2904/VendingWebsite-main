@@ -4,7 +4,7 @@ const MyNavbar = () => {
   return (
     <div>
       <div id='brandby'>
-        <h1 className="hoverable-element">BRAND PARTNERSHIPS</h1>
+        <div className='ourServicePage'><h1 className="hoverable-element">BRAND PARTNERSHIPS</h1></div>
         <p className="hoverable-element">24buy7 has collaborated with many brands which helped in a <br></br>tremendous customer attraction.</p>
       </div>
       <div id='images'>
@@ -42,7 +42,7 @@ const MyNavbar = () => {
         <div><img className="hoverable-element" height={'130vh'} src='paperboat.png' id='paperboat'/></div>
         </div>
        <div className='brandbybutton'>
-       <a href='#contactpage'><button id='brandbyb' className="hoverable-element">Apply for Colab→</button></a>
+       <a href='#contactpage'><button  id='post' className="hoverable-element">Apply for Colab→</button></a>
        </div>
     </div>
   );

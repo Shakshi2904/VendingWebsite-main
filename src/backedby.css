@@ -2,17 +2,12 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin: 10vh;
 }
 .backed{
     text-align: center;
 }
-.backed p{
-    margin: 10vh;
-    color: #22116C;
-    font-family: "Lexend Deca", sans-serif;
-    font-size: 8vh;
-    font-weight: bolder;
+.backed h1 {
+    margin: 5vh;
 }
 @media(max-width:1250px){
     .backedimages img{
@@ -42,31 +37,18 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        margin: 5vh;
     }
-    .backed p{
-        margin: 10px;
+    .backed h1 {
+        margin: 5vh;
     }
 }
 @media(max-width:720px){
-    .backed p{
-        margin-top: 5vh;
-    }
     .backedimages{
         display: flex;
     }
 }
 @media(max-width:460px){
-    .backed p{
-        font-size: 6vh;
-    }
     .backedimages{
         margin: 3vh;
-    }
-}
-@media(max-width:360px){
-    .backed p{
-        font-size: 5vh;
-        margin-top: 5vh;
     }
 }

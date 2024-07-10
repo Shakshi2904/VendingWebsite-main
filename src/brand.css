@@ -4,28 +4,25 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: "Lexend Deca", sans-serif;
+    font-family: "Lexend";
 }
 #brand{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 #brand h1{
-    font-family: "Lexend Deca", sans-serif;
-    color: #22116C;
-    font-size: 7vh;
-    font-weight: bolder;
     margin: 5vh;
     width: 80vw;
     text-align: center;
 }
 #brand p{
-    font-family: "Lexend Deca", sans-serif;
+    font-family: "Lexend";
     text-align: center;
     color: #808080;
-    width: 90vh;
+    width: 60vh;
 }
 .brandPic{
     position: relative;
@@ -34,11 +31,11 @@
     padding: 1.5rem;
 }
 .brandPic h2{
-    font-family: "Lexend Deca", sans-serif;
+    font-family: "Lexend";
     color: black;
 }
 .brandPic p{
-    font-family: "Lexend Deca", sans-serif;
+    font-family: "Lexend";
     color: black;
 }
 .storeGroup{
@@ -83,21 +80,13 @@
     }
 }
 @media(max-width:600px){
-    #brand h1{
-        font-size: 6vh;
-    }
     #brand p{
-        width: 60vh;
+        width: 50vh;
     }
 }
 
 @media(max-width:450px){
     #brand p{
         width: 40vh;
-    }
-}
-@media(max-width:360px){
-    #brand h1{
-        font-size: 5vh;
     }
 }

@@ -2,16 +2,18 @@
     display: flex;
     justify-content: space-around;
     margin: 6vh;
-    font-family: 'Lexend Exa', sans-serif;
+    font-family: 'Lexend';
+    align-items: center;
 }
 #videoleft{
     display: -webkit-box;
 }
 #videoleft button{
     color: #22116C;
-    padding: 1vw;
+    height: 50px;
+    width: 50px;
     margin-right: 1vw;
-    border-radius: 100%;
+    border-radius: 40px;
     border: 2px solid white;
     font-size: 2vh;
 }
@@ -20,9 +22,10 @@
 }
 #videoright button{
     color: #22116C;
-    padding: 1vw;
+    height: 50px;
+    width: 50px;
     margin-right: 1vw;
-    border-radius: 100%;
+    border-radius: 40px;
     border: 2px solid white;
     font-size: 2vh;
 }
@@ -36,8 +39,7 @@
 }
 #how h1{
     color: #22116C;
-    font-size: 7vh;
-    font-weight: bolder;
+    margin-bottom: 0px;
 }
 @media(max-width:900px){
     #videoright button{
@@ -85,14 +87,8 @@
     #videoleft button{
         padding: 2.5vw;
     }
-    #how h1{
-        font-size: 6vh;
-    }
 }
 @media(max-width:360px){
-    #how h1{
-        font-size: 5vh;
-    }
     #video video{
         height: 25vh;
     }

@@ -9,8 +9,8 @@ function Intro(){
             </div>
             <div id='introbutton'>
                 <div id='introb'>
-                <a href='#contactpage'><button id='reachb' className='hoverable-element'>Reach out to us!</button></a>
-                <a href='#about'><button id='learnb' className='hoverable-element'>Learn More</button></a>
+                <a href='#contactpage'><button  id='post' className='hoverable-element'>Reach out to us!</button></a>
+                <a href='#about'><button  id='post' className='hoverable-element'>Learn More</button></a>
                 </div>
             </div>
         </div>
