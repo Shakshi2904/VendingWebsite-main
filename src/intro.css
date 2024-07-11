@@ -20,7 +20,7 @@
     color: #22116C;
     font-size: 10vh;
     text-align: center;
-    width: 60vw;
+    width: 55vw;
     font-weight: bolder;
     display: flex;
     align-items: center;
@@ -29,9 +29,10 @@
 .intro{
     color: #6A6A6A;
     text-align: center;
-    width: 45vw;
+    width: 40vw;
     margin: 8vh;
     font-family: "Lexend ";
+    margin-top:2vh;
 }
 #introbutton{
     display: flex;
