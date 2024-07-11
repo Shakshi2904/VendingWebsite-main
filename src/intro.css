@@ -14,7 +14,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top:1.5vh
 }
 #intro .heading{
     font-family: 'Karantina';
@@ -33,6 +32,7 @@
     width: 40vw;
     margin: 8vh;
     font-family: "Lexend ";
+    margin-top:2vh;
 }
 #introbutton{
     display: flex;
