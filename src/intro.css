@@ -20,8 +20,11 @@
     color: #22116C;
     font-size: 10vh;
     text-align: center;
-    width: 70vw;
+    width: 60vw;
     font-weight: bolder;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .intro{
     color: #6A6A6A;
@@ -74,7 +77,7 @@
         margin-top: -15vh;
     }
     .introbg{
-        height: 100vh;
+        height: 105vh;
     }
 }
 @media(max-width:450px){
@@ -95,7 +98,7 @@
         height: 110vh;
     }
     .introbg{
-        height: 130vh;
+        height: 125vh;
     }
     #intro .heading{
         font-size: 8vh;
