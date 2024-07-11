@@ -46,13 +46,13 @@
 a{
     text-decoration: none;
     font-family: 'Lexend';
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 #navright select{
     border: none;
     color: #FFE600;
     background-color: transparent;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 #b1{
     border: none;
@@ -97,10 +97,10 @@ a{
         width: 45%;
     }
     a{
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
     #navright select{
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 }
 @media screen and (max-width: 1300px){
@@ -108,10 +108,10 @@ a{
         margin-top: 0.5vh;
     }
     a{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
     #navright select{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
     #navbar{
         background-image: url('../public/nav.png');
@@ -126,10 +126,10 @@ a{
 }
 @media screen and (max-width: 950px){
     a{
-        font-size: 0.7rem;
+        font-size: 0.5rem;
     }
     #navright select{
-        font-size: 0.7rem;
+        font-size: 0.5rem;
     }
     #navbar{
         height: 25vh;

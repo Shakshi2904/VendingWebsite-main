@@ -8,7 +8,7 @@
     display: none;
 }
 .feed{
-    margin-top: 5vh;
+    margin-top: 7vh;
     font-family: 'Lexend';
     background-image: url('../public/feedbackbg.png');
 }
@@ -45,6 +45,7 @@
     text-align: center;
 }
 #feedback h1{
+    margin-top: 7vh;
     margin-bottom:2vh;
     color:rgba(34, 17, 108, 1);
 }
@@ -83,9 +84,9 @@
     background-color: white;
 }
 #post{
-    width: 15vw;
+    width: 10vw;
     height: 7vh;
-    font-size: 1rem;
+    font-size: 0.75rem;
     border-radius: 10px;
     border: 2px solid white;
     background-color: rgba(34, 17, 108, 1);
@@ -96,6 +97,7 @@
 #post:hover{
     background-color: #FFE600;
     color: rgba(34, 17, 108, 1);
+    transition-delay: 200ms;
 }
 #postbutton{
     display: flex;
@@ -114,7 +116,7 @@
         height: 8vh;
     }
     #post{
-        width: 20vw;
+        width: 17vw;
         margin: 1vh;
     }
 }
@@ -140,7 +142,7 @@
         height: 10vh;
     }
     #post{
-        width: 25vw;
+        width: 19vw;
         margin: 1vh;
     }
 }
@@ -150,7 +152,7 @@
         height: 14vh;
     }
     #post{
-        width: 30vw;
+        width: 20vw;
         margin: 1vh;
     }
     #feedbackpic img{
@@ -174,7 +176,7 @@
         height: 15vh;
     }
     #post{
-        width: 45vw;
+        width: 23vw;
         margin: 1vh;
     }
 }
@@ -192,10 +194,18 @@
         height: 5vh;
         width: 5vh;
     }
+    #post{
+        width: 25vw;
+        margin: 1vh;
+    }
 }
 @media(max-width:290px){
     .n{
         width: 50vw;
         height: 20vh;
+    }
+    #post{
+        width: 35vw;
+        margin: 1vh;
     }
 }

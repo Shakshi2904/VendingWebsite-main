@@ -4,6 +4,7 @@
     flex-direction: column;
     align-items: center;
     font-family: "Lexend";
+    margin-top: 5vh;
 }
 #brand{
     display: flex;

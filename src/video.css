@@ -1,7 +1,7 @@
 #video{
     display: flex;
     justify-content: space-around;
-    margin: 6vh;
+    margin: 7vh;
     font-family: 'Lexend';
     align-items: center;
 }

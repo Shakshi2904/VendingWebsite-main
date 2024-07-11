@@ -8,6 +8,7 @@
 }
 .backed h1 {
     margin: 5vh;
+    margin-top: 7vh;
 }
 @media(max-width:1250px){
     .backedimages img{
