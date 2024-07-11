@@ -44,8 +44,8 @@
 a{
     text-decoration: none;
     font-family: 'Lexend';
-    margin-right: 2vw;
-    font-size: 0.8rem;
+    margin-right: 3vw;
+    font-size: 0.7rem;
 }
 #navright select{
     border: none;
@@ -61,15 +61,27 @@ a{
 #b1 a{
     color: #FFE600;
 }
-#home{
-    padding : 0.7rem;
-    border: 2px solid #FFE600;;
-    border-radius: 10px;
-    background-color: #FFE600;
+#navright .active {
+    position: relative;
+    display: inline-block;
+    margin-top: 3vh;
+    margin-right: 20px;
+    background-color: yellow;
+    height: 4vh;
+    width: auto;
+    padding-left: 3vw;
+    text-align: center;
+    border-radius: 50px;
+    color:#22116C;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
-#b1 #home{
-    color: #22116C;
-}
+  #navright .active:hover a{
+    color: #22116C; /* Blue text color on hover for links */
+  }
+  #navright .active:hover select{
+    color: #22116C; /* Blue text color on hover for links */
+  }
+  
 .hamburger {
     display: none;
     font-size: 2rem;

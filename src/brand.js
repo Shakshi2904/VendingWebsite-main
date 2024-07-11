@@ -3,29 +3,29 @@ import './brand.css';
 function Brand() {
   return (
     <div className='brandpage'>
-        <div id='brand' className="hoverable-element">
-          <div className='ourServicePage'><h1 className="hoverable-element">MAKING INDIA FUTURE READY WITH UNMANNED QUICK BUYING SOLUTIONS</h1></div>
-                <p className="hoverable-element"> Enabling last mile distribution through retailers & franchise partners through intelligent retail offerings.</p></div>
+        <div id='brand'>
+          <div className='ourServicePage'><h1>MAKING INDIA FUTURE READY WITH UNMANNED QUICK BUYING SOLUTIONS</h1></div>
+                <p> Enabling last mile distribution through retailers & franchise partners through intelligent retail offerings.</p></div>
         <div className='brandPic'>
             <div className='storeGroup'>
-            <img className="hoverable-element" src='store.png' alt='hi'/>
-            <h2 className="hoverable-element">200+</h2>
-            <p className="hoverable-element">Stores</p>
+            <img src='store.png' alt='hi'/>
+            <h2 >200+</h2>
+            <p >Stores</p>
             </div>
             <div className='storeGroup'>
-            <img className="hoverable-element" src='cities.png' alt='hi'/>
-            <h2 className="hoverable-element">200+</h2>
-            <p className="hoverable-element">Cities</p>
+            <img src='cities.png' alt='hi'/>
+            <h2>200+</h2>
+            <p>Cities</p>
             </div>
             <div className='storeGroup'>
-            <img className="hoverable-element" src='franchises.png' alt='hi'/>
-            <h2 className="hoverable-element">200+</h2>
-            <p className="hoverable-element">Franchises</p>
+            <img src='franchises.png' alt='hi'/>
+            <h2 >200+</h2>
+            <p >Franchises</p>
             </div>
             <div className='storeGroup'>
-            <img className="hoverable-element" src='cloud_kitchens.png' alt='hi'/>
-            <h2 className="hoverable-element">200+</h2>
-            <p className="hoverable-element">Brands/Cloud Kitchen</p>
+            <img src='cloud_kitchens.png' alt='hi'/>
+            <h2>200+</h2>
+            <p>Brands/Cloud Kitchen</p>
             </div>
         </div>
   </div>

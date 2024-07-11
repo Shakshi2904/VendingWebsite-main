@@ -65,6 +65,7 @@
     color:#B7B7B7;
 }
 #footerright img{
+    padding: 1vh;
     background-color: rgba(46, 46, 46, 1);
 }
 #footerright p{
@@ -145,6 +146,7 @@
     }
     #footermobile img{
         color:#B7B7B7;
+        padding: 1vh;
     }
     #footermobile .mobileFooter{
         color:#B7B7B7;
@@ -157,5 +159,11 @@
         color:#B7B7B7;
         margin-right: 4vw;
         font-size: 1rem ;
+    }
+}
+@media(max-width:300px){
+    #footermobile img{
+        color:#B7B7B7;
+        padding: 0.5vh;
     }
 }

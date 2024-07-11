@@ -3,7 +3,7 @@ function Video(){
     return(
         <div>
         <div id='how'>
-        <div  className='ourServicePage'><h1 className="hoverable-element">HOW IT WORKS?</h1></div>
+        <div  className='ourServicePage'><h1>HOW IT WORKS?</h1></div>
             </div>
             <div id='video' className='video1'>
                 <div id='videoleft'>
@@ -12,13 +12,13 @@ function Video(){
                     </video>
                 </div>
                 <div id='videoright'>
-                <button className="hoverable-element">1</button>
-                <p className="hoverable-element">Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor.</p></div>
+                <button >1</button>
+                <p>Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor.</p></div>
             </div>
             <div id='video' className='video2'>
                 <div id='videoleft'>
-                <button className="hoverable-element">2</button>
-                <p className="hoverable-element">Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor.</p>
+                <button >2</button>
+                <p >Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor.</p>
                 </div>
                 <div id='videoright'>
                 <video width="320" height="240" autoplay>
@@ -33,13 +33,13 @@ function Video(){
                     </video>
                 </div>
                 <div id='videoright'>
-                <button className="hoverable-element">3</button>
-                <p className="hoverable-element">Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor.</p></div>
+                <button>3</button>
+                <p>Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor.</p></div>
             </div>
             <div id='video'  className='video4'>
                 <div id='videoleft'>
-                <button className="hoverable-element">4</button>
-                <p className="hoverable-element">Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor.</p></div>
+                <button >4</button>
+                <p >Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor.</p></div>
                 <div id='videoright'>
                 <video width="320" height="240" autoplay>
                     <source src="backgroundvideo.mp4" type="video/mp4"></source>
