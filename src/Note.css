@@ -109,6 +109,10 @@
         width: 17vw;
         height: 8vh;
     }
+    #post{
+        width: 15vw;
+        margin: 1vh;
+    }
 }
 @media(max-width:1050px){
     .n{
@@ -152,7 +156,7 @@
         height: 14vh;
     }
     #post{
-        width: 20vw;
+        width: 25vw;
         margin: 1vh;
     }
     #feedbackpic img{
@@ -170,7 +174,7 @@
         width: 6vh;
     }
     #post{
-        width: 25vw;
+        width: 27vw;
         margin: 1vh;
     }
 }
@@ -184,7 +188,7 @@
         margin: 1vh;
     }
 }
-@media(max-width:370px){
+@media(max-width:380px){
     .n{
         width: 50vw;
         height: 20vh;
@@ -203,13 +207,18 @@
         margin: 1vh;
     }
 }
-@media(max-width:290px){
+@media(max-width:335px){
+    #post{
+        width: 37vw;;
+    }
+}
+@media(max-width:300px){
     .n{
         width: 50vw;
         height: 20vh;
     }
     #post{
-        width: 37vw;
+        width: 45vw;
         margin: 1vh;
     }
 }
