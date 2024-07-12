@@ -44,7 +44,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 7vh;
+    margin-top: 12vh;
 }
 #brandby h1{
     margin: 2vh;
@@ -55,6 +55,7 @@
     font-family: "Lexend";
     text-align: center;
     width: 70vh;
+    margin-top: 4vh;
     margin-bottom: 5vh;
 }
 .brandbybutton{
