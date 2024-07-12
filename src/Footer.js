@@ -52,20 +52,21 @@ function Footer(){
                 </div>
                 <br/>
                 <div className='laptopFooter'>
-                    <p><img  src='location.png' alt='not available' height='20' width='20'/> Appen your address here</p>
-                    <p><img  src='mail.png' alt='not available' height='20' width='20'/> info@gmail.com</p>
-                    <p><img  src='phone.png' alt='not available' height='20' width='20'/>+919999999999</p>
+                    <p><a href=''><img  src='location.png' alt='not available' height='20' width='20'/></a> Appen your address here</p>
+                    <p><a href=''><img  src='mail.png' alt='not available' height='20' width='20'/> </a>info@gmail.com</p>
+                    <p><a href=''><img  src='phone.png' alt='not available' height='20' width='20'/></a>+919999999999</p>
                 </div>
                 <br/>
             </div>
             <div id="footerright">
                 <h3 >Social Media Links</h3>
-                <p><img  src='facebook.png' alt='not available'/>
-                <img  src='instagram.png' alt='not available'/>
-                <img  src='linkedin.png' alt='not available'/>
-                <img  src='twitter.png' alt='not available'/>
-                <img  src='whatsapp.png' alt='not available'/>
-                <img  src='youtube.png' alt='not available'/></p>
+                <p>
+                <a  href=""><img  src='facebook.png' alt='not available'/></a>
+                <a  href=""><img  src='instagram.png' alt='not available'/></a>
+                <a  href=""><img  src='linkedin.png' alt='not available'/></a>
+                <a  href=""><img  src='twitter.png' alt='not available'/></a>
+                <a  href=""><img  src='whatsapp.png' alt='not available'/></a>
+                <a  href=""><img  src='youtube.png' alt='not available'/></a></p>
                 Terms and Conditions 
                 <br></br>
                 <br></br>Privacy Policy
@@ -108,21 +109,21 @@ function Footer(){
                 </div>
                 <br/><br/>
                 <div>
-                    <p><img  src='location.png' alt='not available' height='20' width='20'/></p>
+                    <p><a href=''><img  src='location.png' alt='not available' height='20' width='20'/></a></p>
                 </div>
                 <div>
                     <p>Appen your address here</p>
                 </div>
                 <br/>
                 <div>
-                    <p><img  src='mail.png' alt='not available' height='20' width='20'/></p>
+                    <p><a href=''><img  src='mail.png' alt='not available' height='20' width='20'/></a></p>
                 </div>
                 <div>
                     <p>info@gmail.com</p>
                 </div>
                 <br/>
                 <div>
-                    <p><img  src='phone.png' alt='not available' height='20' width='20'/></p>
+                    <p><a href=''><img  src='phone.png' alt='not available' height='20' width='20'/></a></p>
                 </div>
                 <div>
                     <p>+919999999999</p>
@@ -132,12 +133,13 @@ function Footer(){
                 <h3 >Social Media Links</h3>
             </div>
             <br/>
-            <p><img  src='facebook.png' alt='not available'/>
-                <img  src='instagram.png' alt='not available'/>
-                <img  src='linkedin.png' alt='not available'/>
-                <img  src='twitter.png' alt='not available'/>
-                <img  src='whatsapp.png' alt='not available'/>
-                <img  src='youtube.png' alt='not available'/></p>
+            <p>
+                <a  href=""><img  src='facebook.png' alt='not available'/></a>
+                <a  href=""><img  src='instagram.png' alt='not available'/></a>
+                <a  href=""><img  src='linkedin.png' alt='not available'/></a>
+                <a  href=""><img  src='twitter.png' alt='not available'/></a>
+                <a  href=""><img  src='whatsapp.png' alt='not available'/></a>
+                <a  href=""><img  src='youtube.png' alt='not available'/></a></p>
             <br/>
             <p>Terms and Conditions</p>
             <br/> 

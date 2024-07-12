@@ -6,7 +6,7 @@
     height: 70vh;
 }
 #intro p{
-    font-family: "Lexend ";
+    font-family: "Lexend";
 }
 #intro{
     display: flex;
@@ -30,7 +30,7 @@
     text-align: center;
     width: 40vw;
     margin: 8vh;
-    font-family: "Lexend ";
+    font-family: "Lexend";
     margin-top:6vh;
 }
 #introbutton{
@@ -66,7 +66,12 @@
         margin-top: -10vh;
     }
     .introbg{
-        height: 90vh;
+        height: 100vh;
+    }
+}
+@media(max-width:570px){
+    .introbg{
+        height: 115vh;
     }
 }
 @media(max-width:520px){
@@ -77,30 +82,35 @@
         margin-top: -15vh;
     }
     .introbg{
-        height: 105vh;
+        height: 125vh;
     }
 }
 @media(max-width:450px){
     .introbg{
-        height: 110vh;
+        height: 130vh;
     }
 }
-@media(max-width:390px){
+@media(max-width:400px){
     .heading{
         font-size: 5vh;
     }
     .introbg{
-        height: 120vh;
+        height: 135vh;
     }
 }
-@media(max-width:330px){
+@media(max-width:360px){
     .introbg{
         height: 110vh;
     }
     .introbg{
-        height: 125vh;
+        height: 140vh;
     }
     #intro .heading{
         font-size: 8vh;
+    }
+}
+@media(max-width:320px){
+    .introbg{
+        height: 155vh;
     }
 }
