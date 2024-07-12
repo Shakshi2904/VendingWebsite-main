@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: space-around;
     height: 70vh;
+    background-size: cover;
 }
 #intro p{
     font-family: "Lexend";
@@ -46,6 +47,7 @@
 @media(max-width:1000px){
     .intro{
         margin: 6vh;
+        width: 50vw;
     }
     .heading{
         font-size: 8vh;
@@ -54,9 +56,12 @@
         height: 70vh;
     }
 }
-@media(max-width:720px){
+@media(max-width:790px){
     .heading{
         font-size: 8vh;
+    }
+    #intro .heading{
+        width: 60vw;
     }
     #introb{
         flex-direction: column;
@@ -66,28 +71,34 @@
         margin-top: -10vh;
     }
     .introbg{
-        height: 100vh;
+        height: 90vh;
     }
 }
 @media(max-width:570px){
     .introbg{
-        height: 115vh;
+        height: 100vh;
     }
 }
 @media(max-width:520px){
     .heading{
         font-size: 6vh;
     }
+    #intro .heading{
+        width: 70vw;
+    }
     #introbutton{
         margin-top: -15vh;
     }
     .introbg{
-        height: 125vh;
+        height: 100vh;
+    }
+    .intro{
+        width: 60vw;
     }
 }
 @media(max-width:450px){
     .introbg{
-        height: 130vh;
+        height: 110vh;
     }
 }
 @media(max-width:400px){
@@ -95,15 +106,12 @@
         font-size: 5vh;
     }
     .introbg{
-        height: 135vh;
+        height: 115vh;
     }
 }
 @media(max-width:360px){
     .introbg{
-        height: 110vh;
-    }
-    .introbg{
-        height: 140vh;
+        height: 120vh;
     }
     #intro .heading{
         font-size: 8vh;
@@ -111,6 +119,6 @@
 }
 @media(max-width:320px){
     .introbg{
-        height: 155vh;
+        height: 125vh;
     }
 }
