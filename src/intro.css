@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: space-around;
     height: 70vh;
+    background-size: cover;
 }
 #intro p{
     font-family: "Lexend";
@@ -54,7 +55,7 @@
         height: 70vh;
     }
 }
-@media(max-width:720px){
+@media(max-width:790px){
     .heading{
         font-size: 8vh;
     }
