@@ -92,12 +92,12 @@
     background-color: rgba(34, 17, 108, 1);
     font-family: 'Lexend';
     cursor: pointer;
+    transition: 300ms;
     color: #FFE600;
 }
 #post:hover{
     background-color: #FFE600;
     color: rgba(34, 17, 108, 1);
-    transition-delay: 200ms;
 }
 #postbutton{
     display: flex;

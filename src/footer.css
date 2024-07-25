@@ -71,6 +71,10 @@
 #footerright p{
     background-color: rgba(46, 46, 46, 1);
     color:#B7B7B7;
+    display: flex;
+}
+#footerright p a{
+    margin: 0px;
 }
 #foot{
     background-color:rgba(46, 46, 46, 1);

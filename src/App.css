@@ -41,6 +41,7 @@
     width: 50%;
     height: 4vh;
     margin-right: 2vw;
+    align-items: center;
 }
 a{
     text-decoration: none;
@@ -50,6 +51,13 @@ a{
     margin-left: 1vw;
 }
 #navright select{
+    border: none;
+    color: #FFE600;
+    background-color: transparent;
+    font-size: 1.2rem;
+}
+#navright select option{
+    text-align: center;
     border: none;
     color: #FFE600;
     background-color: transparent;
@@ -65,9 +73,8 @@ a{
 #navright .active {
     position: relative;
     display: flex;
-    margin-top: 0.5vh;
     background-color: yellow;
-    height: 2.7vh;
+    height: 5vh;
     width:max-content;
     text-align: center;
     border-radius: 10px;
@@ -108,36 +115,39 @@ a{
         margin-top: 0.5vh;
     }
     a{
-        font-size: 0.7rem;
+        font-size: 0.9rem;
     }
     #navright select{
-        font-size: 0.7rem;
+        font-size: 0.9rem;
     }
     #navbar{
         background-image: url('../public/nav.png');
         height: 30vh;
     }
     #navleft{
-        margin-top: 1vh;
+        margin-top: 3vh;
     }
     #navright{
-        margin-top: 1vh;
+        margin-top: 5vh;
+    }
+}
+@media(max-width:1100px){
+    a{
+        font-size: 0.7rem;
+    }
+    #navright select{
+        font-size: 0.7rem;
     }
 }
 @media screen and (max-width: 950px){
-    a{
-        font-size: 0.5rem;
-    }
-    #navright select{
-        font-size: 0.5rem;
-    }
+    
     #navbar{
         height: 25vh;
     }
 }
 @media screen and (max-width: 830px) {
     #navleft{
-        margin-top: 0vh;
+        margin-top: 1vh;
     }
     .hamburger {
         display: block;
