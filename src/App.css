@@ -57,7 +57,6 @@ a{
     font-size: 1.2rem;
 }
 #navright select option{
-    text-align: center;
     border: none;
     color: #FFE600;
     background-color: transparent;
@@ -80,7 +79,7 @@ a{
     border-radius: 10px;
     align-items: center;
     color:#22116C;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    transition: 300ms;
 }
   #navright .active:hover a{
     color: #22116C; /* Blue text color on hover for links */
@@ -109,6 +108,9 @@ a{
     #navright select{
         font-size: 0.9rem;
     }
+    #navright select option{
+        font-size: 0.9rem;
+    }
 }
 @media screen and (max-width: 1300px){
     #navright{
@@ -118,6 +120,9 @@ a{
         font-size: 0.9rem;
     }
     #navright select{
+        font-size: 0.9rem;
+    }
+    #navright select option{
         font-size: 0.9rem;
     }
     #navbar{
@@ -136,6 +141,9 @@ a{
         font-size: 0.7rem;
     }
     #navright select{
+        font-size: 0.7rem;
+    }
+    #navright select option{
         font-size: 0.7rem;
     }
 }
@@ -179,6 +187,11 @@ a{
     }
     #navright a,
     #navright select {
+        margin-right: 0;
+        margin-bottom: 2vh;
+        font-size: 1rem;
+    }
+    #navright select option{
         margin-right: 0;
         margin-bottom: 2vh;
         font-size: 1rem;
