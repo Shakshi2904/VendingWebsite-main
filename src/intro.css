@@ -14,6 +14,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    animation-duration: 1s;
+    animation-name: intro;
+    animation-timing-function: ease-in-out;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    transform: translateX(-1000px);
+}
+@keyframes intro {
+    from{
+        transform: translateX(-1000px);
+    }
+    to{
+        transform: translateX(0);
+    }
 }
 #intro .heading{
     font-family: 'Karantina';
@@ -36,6 +50,12 @@
 }
 #introbutton{
     display: flex;
+    animation-duration: 1s;
+    animation-name: intro;
+    animation-timing-function: ease-in-out;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    transform: translateX(-1000px);
     justify-content: space-around;
 }
 #introb{

@@ -131,8 +131,8 @@ function OurService(){
             </div>
             <br/><br/><br/>
             <div className='imagesSection'>
-                <img src='img1.png' alt='not available' height='300' width='300'/>
-                <img src='img2.png' alt='not available' height='300' width='300'/>
+                <img className="i1" src='img1.png' alt='not available' height='300' width='300'/>
+                <img className='i2' src='img2.png' alt='not available' height='300' width='300'/>
             </div>
             </div>
             <div className='mobileService'>

@@ -1,7 +1,7 @@
 import './about.css';
 function About(){
     return(
-        <div>
+        <div className='ABOUT'>
             <div id='about'>
                 <div  className='ourServicePage'><h1>ABOUT US!</h1></div>
                 <p> Welcome to 24buy7, your trusted partner in delivering top-notch snack and beverage vending solutions. We cater to a diverse range of environments including corporate offices, schools, colleges, and industrial settings. Our goal is to ensure that you have access to your favorite snacks and drinks whenever you need them, 24/7.</p>

@@ -8,6 +8,21 @@
     color:#22116C;
     font-family: 'Lexend';
 }
+.ourServicePage div{
+    animation: our ease-in-out;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+}
+@keyframes our {
+    from{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to{
+            opacity: 1;
+            transform: translateY(0px);
+    }
+}
 #ourh{
     text-align: center;
     margin-top: 7vh;
@@ -122,7 +137,7 @@ p .paraheading{
     color:yellow;
     background-color: #22116C;
     font-size: 2.5rem;
-    font-weight: bold;
+    font-weight: bold; 
 }
 .left p{
     margin-left: 10%;
@@ -179,6 +194,38 @@ p .paraheading{
     flex-direction: row;
     padding-left: 10%;
     justify-content: center;
+}
+.i1{
+    animation: rotate1 3s 1;
+    animation-timing-function:ease-in-out;
+    animation-timeline: view();
+    animation-range: entry 0% cover 50%;
+}
+.i2{
+    animation: rotate2 3s 1;
+    animation-timing-function:ease-in-out;
+    animation-timeline: view();
+    animation-range: entry 0% cover 50%;
+}
+.ourServicePage .imagesSection:nth-child(2){
+    animation-delay: 0.25s;
+}
+.ourServicePage .imagesSection:nth-child(2){
+    animation-delay: 0.5s;
+}
+@keyframes rotate1 {
+    50% {
+        opacity: 0.5;
+        transform: rotate(180deg);
+        background: linear-gradient(90deg);
+    }
+}
+@keyframes rotate2 {
+    50% {
+        opacity: 0.5;
+        transform: rotate(180deg);
+        background: linear-gradient(90deg);
+    }
 }
 @media screen and (max-width: 1400px) {
 }

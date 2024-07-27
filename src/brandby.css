@@ -71,6 +71,25 @@
     color:#FFE600;
     background-color: #22116C;;
 }
+.BrandBy{
+    animation-duration: 1s;
+    animation-name: brandby;
+    animation-timing-function: ease-in-out;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-timeline:view();
+    animation-range: entry 0;
+}
+@keyframes brandby {
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        scale: 1;
+        opacity: 1;
+    }
+}
 @media(max-width:950px){
     #part1{
         flex-wrap: wrap;

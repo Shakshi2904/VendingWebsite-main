@@ -2,7 +2,7 @@ import React from 'react';
 import './brandby.css'
 const MyNavbar = () => {
   return (
-    <div>
+    <div className='BrandBy'>
       <div id='brandby'>
         <div className='ourServicePage'><h1>BRAND PARTNERSHIPS</h1></div>
         <p>24buy7 has collaborated with many brands which helped in a <br></br>tremendous customer attraction.</p>

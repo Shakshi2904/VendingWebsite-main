@@ -1,7 +1,7 @@
 import './video.css';
 function Video(){
     return(
-        <div>
+        <div className='videopage'>
         <div id='how'>
         <div  className='ourServicePage'><h1>HOW IT WORKS?</h1></div>
             </div>
